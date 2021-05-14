@@ -3,6 +3,70 @@
 <head>
     <meta charset="UTF-8">    
     <title>Perfil | Vitor G Ferreira</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">        
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <style>
+        .fonteJuliosSansOne {
+            font-family: 'Julius Sans One', sans-serif;
+        }
+        html, body {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            line-height: 26px;
+            background: #f6efe5;
+            color: #0d2c40            
+        }
+
+        .textbold {
+            font-weight: 600;
+        }
+
+        .fotoPerfil {
+            border-radius: 100%;
+            
+        }
+
+        .empaty_skill {
+            font-size: 2em;
+        }
+
+        .html_skill {
+            font-size: ;
+        }
+
+        .inovation_skill {
+            font-size: 1.6em;
+        }
+
+        .html_skill {
+            font-size: 1.3em;
+        }
+
+        .css_skill {
+            font-size: 1.6em;
+        }
+
+        .git_skill {
+            font-size: 2em;
+        }
+
+        .modelfin_skill {
+            font-size: 1.7em;
+        }
+
+        .skills_box {
+            background: #f7e3c8;
+            text-align: center;
+        }
+
+        ul {
+            margin: 0px auto;
+            display: inline-block;
+        }
+
+    </style>
+
 </head>
 <body>
     
@@ -11,41 +75,41 @@
         <li><a href="#other_skills">Habilidades Técnicas</a></li>
     </ul>
     
-    <h1>Vitor Gonzaga Ferreira</h1>
+    <h1 class="fonteJuliosSansOne">VITOR GONZAGA FERREIRA</h1>
 
-    <img id="Topo" src="my_photo.jpg" alt="Foto do Perfil" width="300px">
+    <img class="fotoPerfil" id="Topo" src="my_photo.jpg" alt="Foto do Perfil" width="300px">
 
     <p>Rio de Janeiro - Brasil.</p>
-    <p>Estudante de Desenvolvimento Web na Trybe | Graduado em Ciência Contábeis, com MBA em Finanças pela FGV</p>
+    <p>Estudante de <span class="textbold">Desenvolvimento Web</span> na Trybe | Graduado em Ciência Contábeis, com MBA em Finanças pela FGV</p>
     <p>Meu primeiro contato com programação foi há 10 anos através do VBA <em>(Visual Basic for Applications)</em> no Excel.</p>
-    <p>"Uma vez programador, sempre programador!"<em>Autor desconhecido</em></p>
 
-    <a href="https://www.linkedin.com/in/vitorgonzaga/" target="_blank">Linkedin</a>
-    <br /><br />
+    <a href="https://www.linkedin.com/in/vitorgonzaga/" target="_blank">Linkedin</a>    
     <a href="https://github.com/vitorgonzaga" target="_blank">Github</a>
 
-    <h2 id="main_skills">Principais Habilidades</h2>
+    <div class="skills_box">
+        <h2 id="main_skills">Principais Habilidades</h2>
 
-    <ul>
-        <li>Empatia</li><br>
-        <li><strong>Cooperação</strong></li><br>
-        <li>Inovação</li><br>
-    </ul>
+            <ul>
+                <li class="empaty_skill">Empatia</li><br>
+                <li class="coop_skill"><strong>Cooperação</strong></li><br>
+                <li class="inovation_skill">Inovação</li><br>
+            </ul>
 
-    <h2 id="other_skills">Habilidades Técnicas</h2>
+        <h2 id="other_skills">Habilidades Técnicas</h2>
 
-    <ul>
-        <li>Matemática Financeira</li><br>
-        <li>Modelagem Financeira (Excel & VBA)</li><br>
-        <li>Criação de Relatórios</li><br>
-        <li>Fluxo de Caixa </li><br>
-        <li>Experiência com SAP (módulos FI, BPC e TRM</li><br>
-        <li>Github</li><br>
-        <li>HTML</li><br>
-        <li>CSS</li><br>
-        <li>Desenvolvimento Web Full Stack (Em andamento)</li><br>
-    </ul>
-
+            <ul>
+                <li class="html_skill">HTML</li><br>
+                <li class="css_skill">CSS</li><br>
+                <li class="git_skill">Github</li><br>
+                <li class="Python_skill">Python</li><br>
+                <li class="Power_Bi">Power Bi</li><br>
+                <li class="mathfin_skill">Matemática Financeira</li><br>
+                <li class="modelfin_skill">Modelagem Financeira (Excel & VBA)</li><br>
+                <li class="report_skill">Criação de Relatórios</li><br>
+                <li class="cashflow_skill">Fluxo de Caixa </li><br>
+                <li class="erp_skill">Experiência com SAP (módulos FI, BPC e TRM</li><br>
+            </ul>
+    </div>
     <a href="#Topo">TOPO</a>
     
 </body>
